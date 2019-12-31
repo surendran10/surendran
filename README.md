@@ -13,7 +13,7 @@ employee_details
 | 1001    | HR              |      
 | 1002    | sales           | 
 | 1003    | development     |       
-| 1004   | dba              |       
+      
 
 
 
