@@ -1,4 +1,4 @@
-
+employee_details
 
 | emp_id | employee_name | department_id | date_of_birth | joining_date | pan_card    | adhar_num |
 |--------|---------------|---------------|---------------|--------------|-------------|-----------|
