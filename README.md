@@ -1,19 +1,3 @@
-# surendran
-
-
-
-| grade  | min_salary | max_salary |
-|--------|------------|------------|
-| 1      | 8000       | 13000      |
-| 2      | 13000      | 15000      |
-| 3      | 15000      | 20000      |
-
-| dept_id | department_name | manager_id | department_location |
-|---------|-----------------|------------|---------------------|
-| 1001    | HR              | 68543      | chennai             |
-| 1002    | sales           | 66552      | mumbai              |
-| 1003    | development     | 69872      | delhi               |
-| 1004   | dba             | 66552      | delhi               |
 
 
 | emp_id | employee_name | department_id | date_of_birth | joining_date | pan_card    | adhar_num |
@@ -28,3 +12,20 @@
 | 8      | suri          | 103           | 10-DEC-1997   | 22-DEC-2019  | gss883923mm | 543712    |
 | 9      | sandy         | 104           | 03-MAR-1992   | 06-JAN-2009  | ueh647293kk | 678832    |
 | 10     | magi          | 103           | 03-MAR-1989   | 30-MAR-2007  | edd473463ol | 567882    |
+
+
+
+| dept_id | department_name | manager_id | department_location |
+|---------|-----------------|------------|---------------------|
+| 1001    | HR              | 68543      | chennai             |
+| 1002    | sales           | 66552      | mumbai              |
+| 1003    | development     | 69872      | delhi               |
+| 1004   | dba              | 66552      | delhi               |
+
+
+
+| grade  | min_salary | max_salary |
+|--------|------------|------------|
+| 1      | 8000       | 13000      |
+| 2      | 13000      | 15000      |
+| 3      | 15000      | 20000      |
