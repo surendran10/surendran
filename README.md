@@ -8,7 +8,10 @@ employee_details
 | 4      | naveen        | 103           | 22-JUN-2017  | 9500   |
 | 5      | magesh        | 101           | 03-MAR-2000  | 13500  |
 
-| dept_id | department_name | 
+
+department_details
+
+| dept_id | dept_name       | 
 |---------|-----------------|
 | 1001    | HR              |      
 | 1002    | sales           | 
