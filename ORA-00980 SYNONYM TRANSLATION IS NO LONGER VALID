@@ -1,0 +1,9 @@
+ORA-00980: SYNONYM TRANSLATION IS NO LONGER VALID
+Solution: Replace the synonym or  recreate the synonym.
+Step 1: Use the query below to find the synonym:
+select * from dba_synonyms s where table_owner not in('SYSTEM','SYS')and db_link is null and not 
+exists(select 1 from dba_objects o where s.table_owner=o.owner and 
+s.table_name=o.object_name);
+Step:2 drop the synonym and recreate the synonym
+DROP PUBLIC SYNONYM SYNONYM_NAME;
+CREATE PUBLIC SYNONYM SYNONYM_NAME FOR NEW_OWNER.OBJECT_NAME;
